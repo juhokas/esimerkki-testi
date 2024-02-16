@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    color: rgb(14, 27, 23);
+    background-color: rgb(27, 221, 255);
+    font-family: 'Roboto', sans-serif;
+    margin: 50px 50px;
+}
+
+#vuorikuva {
+    width: 100%;
+    max-width: 400px;
+}
