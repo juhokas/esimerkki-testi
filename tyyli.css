@@ -7,7 +7,28 @@ body {
     margin: 50px 50px;
 }
 
+figure {
+    border: 10px #232bffcc solid;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+figcaption {
+    background-color: cadetblue;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
 #vuorikuva {
     width: 100%;
     max-width: 400px;
+}
+
+.esittely {
+    font-size: 20px;
+    font-weight: bold;
+    
 }
