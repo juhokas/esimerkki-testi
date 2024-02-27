@@ -32,3 +32,29 @@ figcaption {
     font-weight: bold;
     
 }
+
+header {
+   background-image: url(kuvat/hiekkaranta_pieni.jpg);
+   background-size: cover;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+nav a {
+    background: rgb(90, 21, 21);
+    font-family: otsikko, sans serif;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid rgb(90, 21, 21);
+}
+
+nav a:hover {
+    color: rgb(48, 34, 34);
+    background-color: antiquewhite;
+}
+#valittu {
+    color: rgb(21, 18, 18);
+    background-color: blanchedalmond;
+}
