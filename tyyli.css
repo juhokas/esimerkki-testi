@@ -100,6 +100,11 @@ footer {
     cursor: pointer;
 }
 
+#kartta {
+    padding: 20px;
+    max-width: 90%;
+}
+
 /* tietokoneen ruudulle desktop*/
 @media only screen and (min-width: 1025px) {
     #etusivu {
@@ -113,6 +118,14 @@ footer {
         padding-bottom: 20px;
         padding-left: 200px;
         padding-right: 200px;
+    }
+    footer{
+        flex-direction: row;
+        text-align: left;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        max-height: 15%;
     }
 }
 /* tablettikoko */
@@ -135,6 +148,9 @@ footer {
             gap: 20px;
             padding: 30px;
           }
+          footer{
+            flex-direction: column;
+            text-align: center;
 }
 
 /* mobiilikoko */
@@ -154,6 +170,9 @@ footer {
         gap: 20px;
         padding: 30px;
       }
+      footer{
+        flex-direction: column;
+        text-align: center;
 }
 
 
