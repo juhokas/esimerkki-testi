@@ -24,7 +24,7 @@ figcaption {
 
 #vuorikuva {
     width: 100%;
-    max-width: 400px;
+    /*     max-width: 400px; */
 }
 
 .esittely {
@@ -112,6 +112,7 @@ footer {
         background-size: cover;
         height: 400px;
     }
+
     #slogan {
         font-size: 50px;
         padding-top: 50px;
@@ -119,7 +120,8 @@ footer {
         padding-left: 200px;
         padding-right: 200px;
     }
-    footer{
+
+    footer {
         flex-direction: row;
         text-align: left;
         position: fixed;
@@ -128,59 +130,66 @@ footer {
         max-height: 15%;
     }
 }
+
 /* tablettikoko */
 @media only screen and (min-width: 421px) and (max-width: 1024px) {
-        #etusivu {
-            background-image: url(kuvat/hiekkaranta_pieni.jpg);
-            background-size: cover;
-            height: 400px;
-        }
-        #slogan {
-            font-size: 40px;
-            padding-top: 50px;
-            padding-bottom: 20px;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
-        .grid-container {
-            display: inline;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            padding: 30px;
-          }
-          footer{
-            flex-direction: column;
-            text-align: center;
-}
-
-/* mobiilikoko */
-@media screen and (max-width: 400px) {
     #etusivu {
         background-image: url(kuvat/hiekkaranta_pieni.jpg);
         background-size: cover;
         height: 400px;
     }
+
     #slogan {
-        font-size: 20px;
-        padding: 20px;
+        font-size: 40px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
+
     .grid-container {
         display: inline;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         padding: 30px;
-      }
-      footer{
+    }
+
+    footer {
         flex-direction: column;
         text-align: center;
+    }
 }
 
+    /* mobiilikoko */
+    @media screen and (max-width: 400px) {
+        #etusivu {
+            background-image: url(kuvat/hiekkaranta_pieni.jpg);
+            background-size: cover;
+            height: 400px;
+        }
 
+        #slogan {
+            font-size: 20px;
+            padding: 20px;
+        }
 
-.fa {
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    background-color: blue;
-    color: aqua;
-}
+        .grid-container {
+            display: inline;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        footer {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .fa {
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            background-color: blue;
+            color: aqua;
+        }
+    }
