@@ -134,6 +134,24 @@ footer {
     height: 100%;
 }
 
+.galleria-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.grid-kuva {
+    width: 100%; /* Täysi leveys */
+    margin-bottom: 20px; /* Lisää tilaa kuvien välille */
+}
+
+.grid-kuva img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 
 
 
@@ -191,6 +209,9 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+    .galleria-container {
+        grid-template-columns: repeat(1, 1fr); /* Yksi sarake mobiilissa */
+    }
 }
 
     /* mobiilikoko */
@@ -224,6 +245,9 @@ footer {
             text-decoration: none;
             background-color: blue;
             color: aqua;
+        }
+        .galleria-container {
+            grid-template-columns: repeat(1, 1fr); /* Yksi sarake mobiilissa */
         }
         
     }
