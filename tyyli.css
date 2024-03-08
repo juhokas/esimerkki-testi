@@ -129,6 +129,12 @@ footer {
             padding-left: 50px;
             padding-right: 50px;
         }
+        .grid-container {
+            display: inline;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 30px;
+          }
 }
 
 /* mobiilikoko */
@@ -142,6 +148,12 @@ footer {
         font-size: 30px;
         padding: 20px;
     }
+    .grid-container {
+        display: inline;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 30px;
+      }
 }
 
 
