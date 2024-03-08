@@ -154,14 +154,14 @@ footer {
 }
 
 /* mobiilikoko */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     #etusivu {
         background-image: url(kuvat/hiekkaranta_pieni.jpg);
         background-size: cover;
         height: 400px;
     }
     #slogan {
-        font-size: 30px;
+        font-size: 20px;
         padding: 20px;
     }
     .grid-container {
