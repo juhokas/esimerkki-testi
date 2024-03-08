@@ -108,8 +108,10 @@ footer {
 }
 
 .alisivu-sisalto {
-    margin: 3% 10% 3% 10%;
+    margin: 0% 10% 3% 10%;
     flex-direction: column;
+    background-color: azure;
+    padding: 3px;
 }
 
 .kuva {
