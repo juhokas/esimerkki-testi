@@ -5,27 +5,29 @@
 	<title>Juhon Kahvila</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<!-- Linkitetään tähän CSS tyylitiedosto -->
 	<link rel="stylesheet" href="tyyli.css">
-
-	<!-- Tästä alkaa navigaatio -->
-	<nav>
-		<a href="index.html" id="valittu">Juhon Kahvila</a>
-		<a href="kahvit.html">Kahvimme</a>
-		<a href="galleria.html">Galleria</a>
-		<a href="yhteys.html">Ota yhteyttä</a>
-	</nav>
 </head>
 
-<header>
-	<!-- Other header content goes here -->
-
-	<h1>Juhon Kahvila</h1>
-
-</header>
-
 <body>
+
+	<header id="etusivu">
+		<!-- Tästä alkaa navigaatio -->x
+		<nav>
+			<a href="index.html" id="valittu">Juhon Kahvila</a>
+			<a href="kahvit.html">Kahvimme</a>
+			<a href="galleria.html">Galleria</a>
+			<a href="yhteys.html">Ota yhteyttä</a>
+		</nav>
+
+		<!-- Tänne vaihdettu nav paikka ja uusi id = slogan -->
+		<h1 id="slogan">Juhon erinomaiset kofeiinivirvokkeet</h1>
+
+		<!-- Tänne tulee toimintakehote ja linkki ota yhteyttä sivulle Comment with SHIFT ALT A -->
+		<a href="yhteys.html" id="toimintakehote">Poikkea meille!</a>
+
+
+	</header>
 
 	<section class="grid-container">
 		<div class="grid-teksti1">
@@ -55,7 +57,18 @@
 	<hr>
 	<br>
 	<footer>
-		<p>Copyright &copy; 2023, Juhon Kahvila.</p>
+		<div>
+			<a href="https://www.facebook.com/" target="_blank" ><i class="fa fa-facebook"</i></a>
+			<a href="index.html" class="instagram">Intagram</a>
+			<a href="index.html" class="youtube">YouTube</a>
+		</div>
+		<div>
+			<p>Copyright &copy; 2023, Juhon Kahvila.</p>
+		</div>
+		<div>
+			<p><a href="mailto:info@ticocafe.fi">info.ticocafe.fi</a></p>
+		</div>
+		
 	</footer>
 </body>
 

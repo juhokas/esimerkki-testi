@@ -4,7 +4,7 @@ body {
     color: rgb(14, 27, 23);
     background-color: rgb(27, 221, 255);
     font-family: 'Roboto', sans-serif;
-    margin: 50px 50px;
+    margin: 10px 10px;
 }
 
 figure {
@@ -30,20 +30,26 @@ figcaption {
 .esittely {
     font-size: 20px;
     font-weight: bold;
-    
 }
 
 header {
-   background-image: url(kuvat/hiekkaranta_pieni.jpg);
-   background-size: cover;
-   text-align: center;
-   padding-top: 10px;
-   padding-bottom: 10px;
+
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* fontit uusi maanantaina koodattu SHIT ALT A */
+
+h1 {
+    font-size: 60px;
+    text-shadow: 4px 4px black;
+    color: azure;
 }
 
 nav a {
     background: rgb(90, 21, 21);
-    font-family: otsikko, sans serif;
+    font-family: 'Roboto', sans-serif;
     color: whitesmoke;
     text-decoration: none;
     display: inline-block;
@@ -58,6 +64,7 @@ nav a:hover {
     color: rgb(48, 34, 34);
     background-color: antiquewhite;
 }
+
 #valittu {
     color: rgb(21, 18, 18);
     background-color: blanchedalmond;
@@ -65,7 +72,55 @@ nav a:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Kaksi saraketta, muuta miten haluat */
+    grid-template-columns: 1fr 1fr;
+    /* Kaksi saraketta, muuta miten haluat */
     gap: 20px;
     padding: 30px;
+}
+
+footer {
+    background-color: aliceblue;
+    display: flex;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-around;
+
+}
+
+#toimintakehote {
+    border: 2px solid rgb(48, 34, 34);
+    border-radius: 30px;
+    background-color: rgba(0, 255, 255, 0.618);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* uusi maanantaina koodattu*/
+@media screen and (min-width: 1200px) {
+    #etusivu {
+        background-image: url(kuvat/hiekkaranta_pieni.jpg);
+        background-size: cover;
+        height: 400px;
+    }
+
+    #slogan {
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    color: aqua;
 }
