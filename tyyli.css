@@ -120,14 +120,14 @@ footer {
         #etusivu {
             background-image: url(kuvat/hiekkaranta_pieni.jpg);
             background-size: cover;
-            height: 600px;
+            height: 400px;
         }
         #slogan {
-            font-size: 30px;
+            font-size: 40px;
             padding-top: 50px;
             padding-bottom: 20px;
-            padding-left: 200px;
-            padding-right: 200px;
+            padding-left: 50px;
+            padding-right: 50px;
         }
 }
 
@@ -136,14 +136,11 @@ footer {
     #etusivu {
         background-image: url(kuvat/hiekkaranta_pieni.jpg);
         background-size: cover;
-        height: 200px;
+        height: 400px;
     }
     #slogan {
-        font-size: 10px;
-        padding-top: 50px;
-        padding-bottom: 20px;
-        padding-left: 200px;
-        padding-right: 200px;
+        font-size: 30px;
+        padding: 20px;
     }
 }
 
