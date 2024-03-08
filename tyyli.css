@@ -100,14 +100,13 @@ footer {
     cursor: pointer;
 }
 
-/* uusi maanantaina koodattu*/
-@media screen and (min-width: 1200px) {
+/* tietokoneen ruudulle desktop*/
+@media only screen and (min-width: 1025px) {
     #etusivu {
         background-image: url(kuvat/hiekkaranta_pieni.jpg);
         background-size: cover;
         height: 400px;
     }
-
     #slogan {
         font-size: 50px;
         padding-top: 50px;
@@ -116,6 +115,39 @@ footer {
         padding-right: 200px;
     }
 }
+/* tablettikoko */
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
+        #etusivu {
+            background-image: url(kuvat/hiekkaranta_pieni.jpg);
+            background-size: cover;
+            height: 600px;
+        }
+        #slogan {
+            font-size: 30px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+}
+
+/* mobiilikoko */
+@media screen and (max-width: 500px) {
+    #etusivu {
+        background-image: url(kuvat/hiekkaranta_pieni.jpg);
+        background-size: cover;
+        height: 200px;
+    }
+    #slogan {
+        font-size: 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+
 
 .fa {
     padding: 10px;
