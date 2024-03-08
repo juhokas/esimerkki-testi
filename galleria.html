@@ -8,6 +8,22 @@
 	<!-- Linkitetään tähän CSS tyylitiedosto -->
 	<link rel="stylesheet" href="tyyli.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+        /* Lisätään kuvagallerian tyyli */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .grid-kuva img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+		
+    </style>
 </head>
 
 <body>
@@ -28,26 +44,51 @@
 	</header>
 
 	<section class="grid-container">
-		<div class="grid-teksti1">
-			<p class="esittely">Tervetuloa nauttimaan maukkausta kahveista Tico kahvilaan Haaga-Heliaan!</p>
-			<h2>Teemme kahvia vain aidoista pavuista</h2>
-			<p><strong>Kahvimme</strong> tulevat Afrikasta vain kestävän kehityksen tiloilta ja käytämme niissä
-				poimioita,
-				joille maksamme
-				palkkaa</p>
-			<h3>Arabica</h3>
-			<p>Arabica on kahvilaaduista parhain ja maukkain ja sopii opiskelijan kahvinhimoon sekä kofeiiniaddiktioon.
-			</p>
-		</div>
-		<div class="grid-kuva">
-			<figure>
-				<img id="vuorikuva" src="kuvat/mountain.jpg"
-					alt="vuorikuva jossa pilviä ja saattaa olla myös kahvipapuja hyvällä tuurilla">
-				<figcaption>Tässä on vuorikuva kahvipapuja</figcaption>
-			</figure>
-		</div>
+        <!-- Kuvagalleria -->
+        <div class="grid-kuva">
+            <figure>
+                <img id="vuorikuva" src="kuvat/spice.jpg"
+                    alt="vuorikuva jossa pilviä ja saattaa olla myös kahvipapuja hyvällä tuurilla">
+                <figcaption>Tässä on vuorikuva kahvipapuja</figcaption>
+            </figure>
+        </div>
 
-	</section>
+        <!-- Voit lisätä muita kuvia samalla kaavalla -->
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/spoon.jpg" alt="Kuva 2">
+                <figcaption>Kuvateksti 2</figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/sydan.jpg" alt="Kuva 3">
+                <figcaption>Kuvateksti 3</figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/hiekkaranta_pieni.jpg" alt="Kuva 4">
+                <figcaption>Kuvateksti 4</figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/beans.jpg" alt="Kuva 5">
+                <figcaption>Kuvateksti 5</figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-kuva">
+            <figure>
+                <img src="kuvat/redbeans.jpg" alt="Kuva 6">
+                <figcaption>Kuvateksti 6</figcaption>
+            </figure>
+        </div>
+    </section>
 
 	<br>
 	<hr>
