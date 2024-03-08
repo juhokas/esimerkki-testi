@@ -75,7 +75,9 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
     /* Kaksi saraketta, muuta miten haluat */
     gap: 20px;
-    padding: 30px;
+    padding-right: 10vw;
+padding-left: 10vw;
+padding-top: 2vw;
 }
 
 footer {
@@ -104,6 +106,21 @@ footer {
     padding: 20px;
     max-width: 90%;
 }
+
+.alisivu-sisalto {
+    margin: 3% 10% 3% 10%;
+    flex-direction: column;
+}
+
+.kuva {
+  /*   max-width: 400px; */
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+
+
 
 /* tietokoneen ruudulle desktop*/
 @media only screen and (min-width: 1025px) {
